@@ -14,11 +14,11 @@ def start_program():
     global program_on
     while program_on:
         try:
-            print("1. Add Student")
-            print("2. Show Students")
-            print("3. Search Student By Name")
-            print("4. Search Student By Age")
-            print("5. Search Student By Subject")
+            print(f"{Fore.RESET}1. Add Student")
+            print(f"{Fore.RESET}2. Show Students")
+            print(f"{Fore.RESET}3. Search Student By Name")
+            print(f"{Fore.RESET}4. Search Student By Age")
+            print(f"{Fore.RESET}5. Search Student By Subject")
             options = int(input("Choose one of the options: "))
             Students.clear_screen()
 

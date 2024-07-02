@@ -28,7 +28,7 @@ class Students:
             time.sleep(3)
             cls.clear_screen()
 
-            print(f"{Fore.RED}No students to show.")
+            print(f"{Fore.RED}No saved students found.\n")
         else:
             print(f"{Fore.LIGHTBLUE_EX}Loading students...")
             time.sleep(3)
